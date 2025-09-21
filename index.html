@@ -143,19 +143,6 @@
                 </div>
             </section>
 
-            <section id="cover-letter-generator" class="bg-white rounded-lg shadow-md p-6 md:p-8">
-                <h2 class="text-3xl font-bold text-center mb-4 text-[#118AB2]">✨ Buat Surat Lamaran Otomatis ✨</h2>
-                <p class="text-center text-sm mb-4 max-w-3xl mx-auto">Klik tombol di bawah ini untuk menghasilkan draf surat lamaran profesional berdasarkan data dari CV Anda. Draf ini bisa langsung Anda salin dan gunakan.</p>
-                <div class="flex flex-col items-center">
-                    <button id="generateCoverLetterBtn" class="bg-[#06D6A0] text-white font-bold py-3 px-6 rounded-lg hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105 shadow-md">
-                        Buat Surat Lamaran
-                    </button>
-                    <div id="loadingIndicator" class="hidden mt-4 text-[#073B4C] font-semibold">Membuat surat lamaran...</div>
-                </div>
-                
-                <textarea id="coverLetterOutput" class="w-full mt-6 p-4 rounded-lg border-2 border-[#118AB2] bg-gray-50 text-gray-700" rows="12" placeholder="Surat lamaran akan muncul di sini..." readonly></textarea>
-            </section>
-
         </main>
         
         <footer class="text-center mt-12 border-t pt-6">
@@ -244,7 +231,7 @@
                     labels: ['Bahasa Indonesia', 'Bahasa Inggris', 'Bahasa Jepang'],
                     datasets: [{
                         label: 'Tingkat Kemahiran',
-                        data: [100, 50, 30],
+                        data: [100, 80, 40],
                         backgroundColor: ['#118AB2', '#FFD166', '#FF6B6B'],
                         borderColor: '#fff',
                         borderWidth: 2
